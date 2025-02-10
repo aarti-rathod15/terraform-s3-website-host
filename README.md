@@ -20,7 +20,7 @@ terraform apply -auto-approve
 4️⃣ **Get Website URL**  
 terraform output website_url
   
-Open the URL in a browser 🎉  
+Open the URL in a browser   
 
 
 #Project Structure**  
@@ -34,11 +34,11 @@ terraform-s3-website/
 
 
 
-## **❌ To Delete Everything**  
+## To Delete Everything**  
 terraform destroy -auto-approve
 
 
-### **📌 Notes**  
+###  Notes**  
 - Ensure **AWS CLI is configured** (`aws configure`).  
 - If **AccessDenied error**, disable **Block Public Access** in S3 settings.  
 - Use a **unique S3 bucket name**.  
